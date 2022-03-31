@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "258987314345",
+    "project_id": "amana-c6795",
+    "storage_bucket": "amana-c6795.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258987314345:android:0e62570160609f7f3f2db8",
+        "android_client_info": {
+          "package_name": "com.majestyinc.amana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258987314345-mfs55fsaogj87r6hhjfh07ui8g4v5uv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.majestyinc.amana",
+            "certificate_hash": "8a4a0a8f2ad978f9d96b24f328bb8911a133a052"
+          }
+        },
+        {
+          "client_id": "258987314345-59univ9io0vk3ja9u718qfrpd747e3vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCStwBq9mDSmR1azZiKzhQSSyQuvPN8vJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258987314345-59univ9io0vk3ja9u718qfrpd747e3vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

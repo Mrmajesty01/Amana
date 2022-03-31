@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".cardActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/amount"
+        android:text="$19,000"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Number"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/card_number"/>
+
+
+    <TextView
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account type"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:background="@android:color/darker_gray"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Not sure"
+        android:textColorHint="@android:color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:id="@+id/account_type"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expiry(MM/YY)"
+        android:textSize="17sp"/>
+        <TextView
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CVV"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/expiry_date"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@android:color/darker_gray"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:background="@android:color/darker_gray"
+            android:textColorHint="@android:color/black"
+            android:textAlignment="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:id="@+id/Cvv"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PIN"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:layout_marginStart="50dp"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/Pin"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:text="Pay"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>
